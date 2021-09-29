@@ -1,0 +1,30 @@
+.friends-panel {
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+.friends-panel__items {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -7px;
+}
+
+.friends-panel__item {
+    margin: 0 7px 15px;
+}
+
+.friends-panel__avatar {
+    min-width: 35px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #e5e5e5;
+    margin: 0 auto 10px;
+}
+
+.friends-panel__name {
+    width: 58px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}

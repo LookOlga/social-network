@@ -1,0 +1,47 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__wrapper {
+    padding: 30px;
+    border: 1px solid #cecece;
+    background-color: #fefefe;
+}
+
+.login__title {
+    font-size: 24px;
+}
+
+.login__input, .login__title, .login__input-group {
+    margin-bottom: 15px;
+}
+
+.login__input, .login__title {
+    display: block;
+}
+
+.login__input {
+    width: 100%;
+    border: 1px solid #ccc;
+    height: 35px;
+    padding: 10px;
+}
+
+.login label {
+    line-height: 1;
+}
+
+.login__checkbox {
+    margin-right: 10px;
+}
+
+.login__input-group {
+    display: flex;
+    align-items: center;
+}
+
+.login__btn {
+    width: 100%;
+}

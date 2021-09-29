@@ -1,0 +1,18 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.pagination__btn {
+    padding-inline: 5px;
+    border: 1px solid #4f5de0;
+    color: #4f5de0;
+}
+.pagination__pages-number {
+    margin: 0 20px;
+}
+
+.active-page {
+    color: red;
+}

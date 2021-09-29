@@ -1,0 +1,38 @@
+.profile__info {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-template-areas:
+  "photo data data";
+    grid-gap: 15px;
+}
+
+.profile__data {
+    grid-area: data;
+    margin-bottom: 120px;
+}
+
+.profile__photo {
+    grid-area: photo;
+    min-width: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.profile__photo img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile__name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.profile__item, .profile__name {
+    margin-bottom: 10px;
+}

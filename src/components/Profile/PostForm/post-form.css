@@ -1,0 +1,17 @@
+.post-form {
+    margin-bottom: 50px;
+}
+.post-form__field {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.post-form__field::placeholder {
+    font-size: 14px;
+    color: #000;
+}
